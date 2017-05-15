@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myoschina.Test3Activity">
+
+    <com.example.myoschina.widget.ScrollImageLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/scroll_test3"></com.example.myoschina.widget.ScrollImageLayout>
+</RelativeLayout>

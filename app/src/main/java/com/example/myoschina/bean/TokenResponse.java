@@ -1,0 +1,62 @@
+package com.example.myoschina.bean;
+
+/**
+ * Created by 若希 on 2017/4/27.
+ */
+
+public class TokenResponse {
+
+    /**
+     * access_token : 80b69a3e-2f82-4864-bbf3-e4398b30eb23
+     * refresh_token : ea324e3e-dbcc-41f2-8849-af93aa5cd4db
+     * uid : 3453715
+     * token_type : bearer
+     * expires_in : 604703
+     */
+
+    private String access_token;
+    private String refresh_token;
+    private int uid;
+    private String token_type;
+    private int expires_in;
+
+    public String getAccess_token() {
+        return access_token;
+    }
+
+    public void setAccess_token(String access_token) {
+        this.access_token = access_token;
+    }
+
+    public String getRefresh_token() {
+        return refresh_token;
+    }
+
+    public void setRefresh_token(String refresh_token) {
+        this.refresh_token = refresh_token;
+    }
+
+    public int getUid() {
+        return uid;
+    }
+
+    public void setUid(int uid) {
+        this.uid = uid;
+    }
+
+    public String getToken_type() {
+        return token_type;
+    }
+
+    public void setToken_type(String token_type) {
+        this.token_type = token_type;
+    }
+
+    public int getExpires_in() {
+        return expires_in;
+    }
+
+    public void setExpires_in(int expires_in) {
+        this.expires_in = expires_in;
+    }
+}
